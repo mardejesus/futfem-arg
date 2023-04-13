@@ -3,7 +3,7 @@
 *{ margin: 0; padding: 0; box-sizing: border-box; }
 a{ text-decoration: none; }
 ul, ol{ list-style-type: none; }
-body{ color: white; background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); background-repeat: no-repeat;     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.2rem;}
+body{ color: white; background-image: linear-gradient(19deg, #21D4FD 30%, #B721FF 70%); background-repeat: no-repeat;     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 h1, h2, h3 { font-family:'Alata', sans-serif; }
 img{width: 100%;}
 
@@ -22,6 +22,12 @@ header nav ul li a{
     color: white;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
+    padding: 0.3em;
+}
+
+header nav ul li a:hover{
+    color:black;
+    background-color:#B721FF;
 }
 
 header nav ul{
@@ -30,7 +36,6 @@ header nav ul{
     align-items: center;
     gap: 1em;
     padding: 0.8em 0em;
-    font-size: 1rem;
 }
 
 header nav {
@@ -47,13 +52,14 @@ header nav {
     font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;
     padding: 4vh 8vw;
-    gap: 2em;
+    gap: 2.5em;
 }
 
 .footer__redes, .footer__contacto{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.7em;
 }
 
 .footer__redes__instagram, .footer__redes__twitter, .footer__contacto__mail{
@@ -92,4 +98,36 @@ header nav {
 
 .inicio-imagenes{
     display: none;
+}
+
+
+@media (min-width: 576px){
+    
+    
+    header nav ul{
+        flex-direction: row;
+    }
+
+    .inicio-imagenes{
+        display:flex;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .inicio-imagenes__img{
+        width: 25vw;
+        padding: 10vh 0vh;
+    }
+    
+    .inicio-presentacion__problema, .inicio-presentacion__mision{
+        max-width: 700px;
+    }
+
+    .footer{
+        flex-direction: row;
+        justify-content:space-between;
+    }
+
 }
