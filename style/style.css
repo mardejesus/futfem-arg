@@ -102,7 +102,16 @@ header nav {
 
 
 @media (min-width: 576px){
-    
+
+    .inicio-presentacion__video{
+    background-color: white;
+    padding: 5vh 0vw;
+    text-align: center;
+    }
+
+    .inicio-presentacion__video video{
+    max-width: 60%;
+    }
     
     header nav ul{
         flex-direction: row;
@@ -129,5 +138,56 @@ header nav {
         flex-direction: row;
         justify-content:space-between;
     }
+
+}
+
+
+/* Donde entreno */
+
+.entrenamientos{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.entrenamientos__presentacion{
+    text-align: center;
+    max-width: 50vw;
+    padding: 10vh 0vw 5vh;
+}
+
+.entrenamientos__lugares{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    max-width: 70vw;
+    gap: 1em;
+    padding: 5vh 0vw;
+}
+
+.entrenamientos__lugares .comuna{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: black;
+    padding: 2em;
+}
+
+.entrenamientos__lugares .comuna ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.entrenamientos__form{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 5vh 0vw 10vh;
 
 }
