@@ -16,6 +16,7 @@ header{
     align-items: center;
     text-align: center;
     padding: 1em 0em;
+    font-size: 0.8rem;
 }
 
 header nav ul li a{
@@ -144,7 +145,7 @@ header nav {
 
 /* Donde entreno */
 
-.entrenamientos{
+.entrenamientos, .consejos{
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -191,3 +192,96 @@ header nav {
     padding: 5vh 0vw 10vh;
 
 }
+
+
+/* Comunidad */
+
+.comunidad, .consejos{
+    display: grid;
+    grid-template-rows: 15em 2fr;
+    grid-template-columns: 50vw;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+.comunidad__presentacion, .consejos__presentacion, .noticias__presentacion{
+    text-align: center;
+}
+
+.comunidad__comentarios{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.comunidad__comentarios .comentario{
+    padding: 1em 3em;
+}
+
+.comunidad__comentarios .enviar-comentario{
+    padding: 1em 3em;
+    text-align: center;
+}
+
+
+/* NOTICIAS */
+
+.noticias__presentacion{
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noticias__label{
+    text-align: center;
+}
+
+.noticias__articulos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 1em;
+}
+
+.noticias__articulos .noticia{
+    text-align: center;
+    background-color: white;
+}
+
+.noticias__articulos .noticia a{
+    color: black;
+}
+
+
+
+@media (min-width: 576px){
+
+    .noticias__articulos{
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+        max-width: 65vw;
+    }
+
+    .noticia{
+        max-width: 25vw;
+    }
+
+    .noticias{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .noticia__texto{
+        max-width: 80%;
+    }
+
+}
+
+
+
+

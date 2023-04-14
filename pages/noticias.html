@@ -1,4 +1,4 @@
--<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 
@@ -19,28 +19,30 @@
 
         <h1>FutFem Argentina</h1>
 
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="entrenamiento.html">¿Dónde entreno?</a></li>
-                <li><a href="comunidad.html">Comunidad</a></li>
-                <li><a href="consejos.html">Consejos</a></li>
-                <li><a href="noticias.html">Noticias y eventos</a></li>
-            </ul>
-        </nav>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/entrenamiento.html">¿Dónde entreno?</a></li>
+                    <li><a href="../pages/comunidad.html">Comunidad</a></li>
+                    <li><a href="../pages/consejos.html">Consejos</a></li>
+                    <li><a href="../pages/noticias.html">Noticias y eventos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
 
 
-        <div class="fondo1">
+        <div class="noticias">
 
-            <div class="presentacion">
+            <div class="noticias__presentacion">
                 <h2>Noticias y eventos</h2>
                 <p>Enterate de las últimas novedades de tus equipos favoritos.</p>
             </div>
 
-            <div style="margin-bottom: 15px;">
+            <div class="noticias__label" style="margin-bottom: 15px;">
                 <label for="equipos">Filtrar por equipo:</label>
                 <select id="equipos">
                     <option value="Boca Juniors">Boca Juniors</option>
@@ -53,70 +55,79 @@
                 </select>
             </div>
 
-            <div>
-                <section class="noticia">
+            <div class="noticias__articulos">
+                
+                <div class="noticia" >
                     <a target="_blank" href="https://www.fcbarcelona.es/es/noticias/3117253/el-barca-hace-un-llamamiento-a-la-aficion-para-el-partido-del-primer-equipo-femenino-contra-la-roma-en-el-spotify-camp-nou">
                         <figure>
                             <img src="../images/noticia1.png">
                         </figure>
-                        <p>Lunes 20 de Marzo</p>
-                        <h3>Llamamiento a afición para partido contra Roma en el Camp Nou</h3>
+                        <div class="noticia__texto">
+                            <p>Lunes 20 de Marzo</p>
+                            <h3>Llamamiento a afición para partido contra Roma en el Camp Nou</h3>
+                        </div>
                     </a>
-                </section>
+                </div>
 
-                <section class="noticia">
+                <div class="noticia">
                     <a target="_blank" href="https://es.psg.fr/equipos/futbol-femenino/content/kadidiatou-diani-jugar-en-el-parc-es-una-alegria-para-nosotros">
                         <figure>
                             <img src="../images/noticia5.jpg">
                         </figure>
-                        <p>Lunes 20 de Marzo</p>
-                        <h3>Kadidiatou Diani: "Jugar en el Parc es una alegría para nosotros"</h3>
+                        <div class="noticia__texto">
+                            <p>Lunes 20 de Marzo</p>
+                            <h3>Kadidiatou Diani: "Jugar en el Parc es una alegría para nosotros"</h3>
+                        </div>
                     </a>
-                </section>
+                </div>
 
-                <section class="noticia">
+                <div class="noticia">
                     <a target="_blank" href="https://barcatvplus.fcbarcelona.com/es/videos/3109920?_ga=2.88082846.482630940.1679320442-684826523.1679320442&_gl=1*1sfh3gz*_ga*Njg0ODI2NTIzLjE2NzkzMjA0NDI.*_ga_XCQ7B6K8TL*MTY3OTMzNzk5My4yLjEuMTY3OTM0MDg1My4wLjAuMA..">
                         <figure>
                             <img src="../images/noticia2.jpeg">
                         </figure>
-                        <p>Domingo 19 de Marzo</p>
-                        <h3>Irene Paredes: "Tenemos que estar listas para dar el callo"</h3>
+                        <div class="noticia__texto">
+                            <p>Domingo 19 de Marzo</p>
+                            <h3>Irene Paredes: "Tenemos que estar listas para dar el callo"</h3>
+                        </div>
                     </a>
-                </section>
+                </div>
 
-            </div>
-
-            <div>
-                <section class="noticia">
+                <div class="noticia">
                     <a target="_blank" href="https://www.bocajuniors.com.ar/el-club/Palomar-zurdazo-victoria">
                         <figure>
                             <img src="../images/noticia3.jpg">
                         </figure>
-                        <p>Sabado 18 de Marzo</p>
-                        <h3>Palomar y a cobrar: zurdazo para conseguir otra victoria</h3>
+                        <div class="noticia__texto">
+                            <p>Sabado 18 de Marzo</p>
+                            <h3>Palomar y a cobrar: zurdazo para conseguir otra victoria</h3>
+                        </div>
                     </a>
-                </section>
+                </div>
 
-                <section class="noticia">
+                <div class="noticia">
                     <a target="_blank" href="https://www.fcbarcelona.es/es/futbol/femenino-a/noticias/3113383/barca--valencia-continuan-invictas-5-1">
                         <figure>
                             <img src="../images/noticia4.jpg">
                         </figure>
-                        <p>Viernes 17 de Marzo</p>
-                        <h3>Barça - Valencia: Continúan invictas (5-1)
-                        </h3>
+                        <div class="noticia__texto">
+                            <p>Viernes 17 de Marzo</p>
+                            <h3>Barça - Valencia: Continúan invictas (5-1)</h3>
+                        </div>
                     </a>
-                </section>
+                </div>
 
-                <section class="noticia">
+                <div class="noticia">
                     <a target="_blank" href="https://es.mancity.com/news/womens/khadija-bunny-shaw-record-goleador-city-en-una-temporada-63814295">
                         <figure>
                             <img src="../images/noticia6.jpg">
                         </figure>
-                        <p>Lunes 13 de Marzo</p>
-                        <h3>SHAW, MÁXIMA GOLEADORA DEL CITY EN UNA MISMA TEMPORADA</h3>
+                        <div class="noticia__texto">
+                            <p>Lunes 13 de Marzo</p>
+                            <h3>SHAW, MÁXIMA GOLEADORA DEL CITY EN UNA MISMA TEMPORADA</h3>
+                        </div>
                     </a>
-                </section>
+                </div>
             </div>
 
             
