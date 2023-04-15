@@ -239,7 +239,6 @@ header nav {
 
 .video iframe{
     width: 50vw;
-    min-width: 220px;
     max-width: 280px;
 }
 
