@@ -196,11 +196,12 @@ header nav {
 
 /* Comunidad */
 
-.comunidad, .consejos{
+.comunidad{
     display: grid;
     grid-template-rows: 15em 2fr;
     grid-template-columns: 50vw;
     justify-content: center;
+    justify-items: center;
     align-items: center;
     padding-bottom: 5em;
 }
@@ -222,6 +223,35 @@ header nav {
 .comunidad__comentarios .enviar-comentario{
     padding: 1em 3em;
     text-align: center;
+}
+
+
+/* CONSEJOS */
+
+.consejos{
+    display: grid;
+    grid-template-rows: 15em 1fr;
+    grid-template-columns: 50vw;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 5em;
+}
+
+.video iframe{
+    width: 50vw;
+    min-width: 220px;
+    max-width: 280px;
+}
+
+@media (min-width:575px){
+  
+    .video iframe{
+        width: 50vw;
+        max-width: 620px;
+        min-width: 470px;
+        height: 50vh;
+    }
+    
 }
 
 
