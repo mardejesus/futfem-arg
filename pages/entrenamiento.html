@@ -39,9 +39,9 @@
 
     <main>
 
-        <div class="entrenamientos mi_contenedor">
+        <div class="entrenamientos">
 
-            <div class="entrenamientos__presentacion">
+            <div class="entrenamientos__presentacion mi_contenedor">
                 <h2>¿Dónde entreno?</h2>
                 <p>Descubrí todas las opciones que tenés para hacer fútbol o fútbol sala por tu barrio. Encontrá el
                         mejor
@@ -50,159 +50,300 @@
                         interesan, pronto nos contactaremos con vos para avanzar en el proceso.</p>
             </div>
 
-            <div class="entrenamientos__lugares">
-                <section class="comuna">
-                    <h3>Comuna 1</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
+            <div class="accordion accordion-flush entrenamientos__lugares mi_contenedor" id="accordionFlushExample">
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                          Comuna 1
+                        </button>
+                      </h2>
+                      <div id="flush-collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                          Comuna 2
+                        </button>
+                      </h2>
+                      <div id="flush-collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                          Comuna 3
+                        </button>
+                      </h2>
+                      <div id="flush-collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                          Comuna 4
+                        </button>
+                      </h2>
+                      <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                          Comuna 5
+                        </button>
+                      </h2>
+                      <div id="flush-collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                          Comuna 6
+                        </button>
+                      </h2>
+                      <div id="flush-collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                          Comuna 7
+                        </button>
+                      </h2>
+                      <div id="flush-collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+                          Comuna 8
+                        </button>
+                      </h2>
+                      <div id="flush-collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+                          Comuna 9
+                        </button>
+                      </h2>
+                      <div id="flush-collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+                          Comuna 10
+                        </button>
+                      </h2>
+                      <div id="flush-collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                          Comuna 11
+                        </button>
+                      </h2>
+                      <div id="flush-collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapse12">
+                          Comuna 12
+                        </button>
+                      </h2>
+                      <div id="flush-collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+                          Comuna 13
+                        </button>
+                      </h2>
+                      <div id="flush-collapse13" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse14" aria-expanded="false" aria-controls="flush-collapse14">
+                          Comuna 14
+                        </button>
+                      </h2>
+                      <div id="flush-collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse15" aria-expanded="false" aria-controls="flush-collapse15">
+                          Comuna 15
+                        </button>
+                      </h2>
+                      <div id="flush-collapse15" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol>
+                                <li>FÚTBOL SALA club1, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL SALA club1, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 5 club2, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, 8 a 18 años, miercoles y viernes 18 a 20, cuota mensual $3000, contacto 1112345678.</li>
+                                <li>FÚTBOL 11 club3, +18 años, miercoles y viernes 20 a 22, cuota mensual $3000, contacto 1112345678.</li>
+
+                            </ol>
+                        </div>
+                      </div>
+                </div>
     
-                <section class="comuna">
-                    <h3>Comuna 2</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 3</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 4</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 5</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 6</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 7</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 8</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 9</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 10</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 11</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 12</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 13</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 14</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
-    
-                <section class="comuna">
-                    <h3>Comuna 15</h3>
-                    <ul>
-                        <li>lugar1 futbol principiantes: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar2 futsal principiantes: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar3 futbol intermedio: martes y jueves 18 a 20 en barrio1, valor de cuota $5000.</li>
-                        <li>lugar4 futsal intermedio: lunes y miercoles 20 a 22 en barrio1, valor de cuota $5000.</li>
-                    </ul>
-                </section>
+                
+            
             </div>
 
-            <div class="entrenamientos__form">
+            <div class="entrenamientos__form mi_contenedor">
                 <form action="">
 
                     <div class="formulario">
@@ -251,6 +392,7 @@
         </div>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
 </body>
 

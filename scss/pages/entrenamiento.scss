@@ -1,0 +1,32 @@
+.entrenamientos{
+
+    @include flex(column);
+
+    &__form{
+        display: grid;
+        grid-template-rows: 1/3 1/3 1/3;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        width: 80%;
+        
+    }
+
+    &__presentacion{
+        text-align: center;
+        padding: 25vh 13vw;
+    }
+
+    @media (min-width:576px) {
+        &__presentacion{
+            padding: 28vh 15vw;
+        }
+    }
+    
+    @media (min-width:960px) {
+        &__presentacion{
+            padding: 29vh 20vw;
+        }
+    }
+
+}

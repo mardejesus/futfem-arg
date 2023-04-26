@@ -1,0 +1,47 @@
+.noticias{
+    
+    
+    &__presentacion{
+    @include flex(column);
+    text-align: center;
+    padding: 20vh 10vw;
+    }
+
+    &__label{
+        text-align: center;
+    }
+
+    &__articulos{
+        display: grid;
+        gap: 1em;
+        padding: 1em 15vw;
+        
+
+        .noticia{
+            text-align: center;
+            background-color: white;
+
+            a{
+                color: black;
+            }
+        }
+    }
+
+    @media (min-width: 576px){
+        &__articulos{
+            grid-template-columns: 0.5fr 0.5fr;
+        }
+    }
+
+    @media (min-width: 960px){
+        &__presentacion{
+            padding: 37.5vh 10vw;
+            }
+
+        &__articulos{
+            grid-template-columns: 0.33fr 0.33fr 0.33fr;
+        }
+    }
+
+}
+
