@@ -1,0 +1,21 @@
+.nav-item:hover {
+    background-color: $rosa;
+
+    .nav-link {
+        color: white;
+    }
+}
+
+nav {
+    font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+    .collapse {
+        justify-content: end;
+
+        .navbar-nav {
+            text-align: center;
+        }
+    }
+}

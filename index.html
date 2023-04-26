@@ -6,71 +6,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FUTFEM ARGENTINA</title>
+    <title>FUTFEM arg</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Braah+One&display=swap" rel="stylesheet"></head>
 
 <body>
 
     <header>
 
-        <h1>FutFem Argentina</h1>
-
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pages/entrenamiento.html">¿Dónde entreno?</a></li>
-                    <li><a href="pages/comunidad.html">Comunidad</a></li>
-                    <li><a href="pages/consejos.html">Consejos</a></li>
-                    <li><a href="pages/noticias.html">Noticias y eventos</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg border-bottom ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><h1>FUT<span class="fem">FEM</span><span class="arg">Arg</span></h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/entrenamiento.html">¿Dónde entreno?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/comunidad.html">Comunidad</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/consejos.html">Consejos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/noticias.html">Noticias y eventos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
 
-        <div class="inicio-presentacion__video">
-            <video src="videos/futbol1.mp4" autoplay controls muted></video>
-        </div>
+        <div class="inicio">
 
-        <div class="inicio-presentacion">
+            <div class="inicio__portada mi_contenedor">
+                <h2>"ONE GIRL<br>WITH <span class="courage">COURAGE</span><br>IS A<br><span class="revolution">REVOLUTION</span>"</h2>
+                <div class="inicio__portada__video"><video width="100%" src="videos/futbol1.mp4" autoplay controls muted></video></div>
+            </div>
 
-            <section class="inicio-presentacion__problema">
-                <h2>El Problema</h2>
-                <p>Desde que nacemos estamos limitadxs. Imposiciones sobre quienes debemos ser se trasmiten generación a generación.</p>
-                <p>Las futbolistas enfrentan desigualdad en cuanto a recursos, oportunidades y reconocimiento en comparación a los futbolistas.</p>
-                <p>También barreras en cuanto a la brecha salarial, la discriminación y la falta de visibilidad en los medios, lo que limita su desarrollo y crecimiento en el deporte.</p>
-            </section>
+            <div class="inicio__texto">
+                <section class="inicio__texto__problema mi_contenedor">
+                    <h2>El Problema</h2>
+                    <p>Desde que nacemos estamos limitadxs. Imposiciones sobre quienes debemos ser se trasmiten generación a generación.</p>
+                    <p>Las futbolistas enfrentan desigualdad en cuanto a recursos, oportunidades y reconocimiento en comparación a los futbolistas.</p>
+                    <p>También barreras en cuanto a la brecha salarial, la discriminación y la falta de visibilidad en los medios, lo que limita su desarrollo y crecimiento en el deporte.</p>
+                </section>
+        
+                <section class="inicio__texto__mision mi_contenedor">
+                    <h2>Nuestra Misión</h2>
+                    <p>Buscamos ayudar a quienes por prejuicios y miedos todavía no se animan a empezar.</p>
+                    <p>Promovemos y visibilizamos selecciones de futbol y futsal, llevandote a descubrir sus noticias y eventos.</p>
+                    <p>Te acercamos a canchas y clubes cerca tuyo para que no sea un problema encontrar el mejor tipo de clase para vos.</p>
+                </section>
+            </div>
+
     
-            <section class="inicio-presentacion__mision">
-                <h2>Nuestra Misión</h2>
-                <p>Buscamos ayudar a quienes por prejuicios y miedos todavía no se animan a empezar.</p>
-                <p>Promovemos y visibilizamos selecciones de futbol y futsal, llevandote a descubrir sus noticias y eventos.</p>
-                <p>Te acercamos a canchas y clubes cerca tuyo para que no sea un problema encontrar el mejor tipo de clase para vos.</p>
-            </section>
+            <div class="inicio__imagenes mi_contenedor">
+    
+                <figure class="inicio__imagenes__img">
+                    <img  src="images/img1.jpg" alt="">
+                </figure>
+    
+                <figure class="inicio__imagenes__img">
+                    <img  src="images/img2.jpg" alt="">
+                </figure>
+    
+                <figure class="inicio__imagenes__img">
+                    <img  src="images/img3.jpg" alt="">
+                </figure>
+    
+            </div>
 
         </div>
 
-        <div class="inicio-imagenes">
-
-            <figure class="inicio-imagenes__img">
-                <img width="300" src="images/img1.jpg" alt="">
-            </figure>
-
-            <figure class="inicio-imagenes__img">
-                <img width="300" src="images/img2.jpg" alt="">
-            </figure>
-
-            <figure class="inicio-imagenes__img">
-                <img width="300" src="images/img3.jpg" alt="">
-            </figure>
-
-        </div>
 
     </main>
 
@@ -98,6 +108,8 @@
         </div>
 
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
 </body>
 

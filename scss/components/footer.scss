@@ -1,0 +1,38 @@
+.footer{
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 4vh 8vw;
+    gap: 2.5em;
+
+    &__logo{
+        width: 1.5em;
+    }
+
+    &__redes, &__contacto{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+
+        &__instagram, &__twitter, &__mail{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (min-width: 576px){
+
+    .footer{
+        flex-direction: row;
+        justify-content:space-between;
+    }
+
+}
