@@ -1,10 +1,8 @@
 .noticias{
     
-    
+
     &__presentacion{
-    @include flex(column);
-    text-align: center;
-    padding: 20vh 10vw;
+        @include presentacion(33vh, 10vw);
     }
 
     &__label{

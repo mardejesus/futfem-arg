@@ -1,3 +1,4 @@
+
 .entrenamientos{
 
     @include flex(column);
@@ -13,8 +14,8 @@
     }
 
     &__presentacion{
-        text-align: center;
-        padding: 25vh 13vw;
+        @include presentacion(25vh, 13vw);
+
     }
 
     @media (min-width:576px) {

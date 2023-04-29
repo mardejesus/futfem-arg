@@ -1,0 +1,65 @@
+@mixin presentacion($height, $width){
+    text-align: center;
+    padding: $height $width;
+}
+
+.comunidad{
+    
+    @include flex(column);
+
+    &__presentacion{
+        @include presentacion(27vh, 10vw);
+
+    }
+
+    &__comentarios{
+        @include flex(column);
+        gap: 20px;
+
+        &__comentario{
+            padding: 20px;
+            width: 100%;
+            background-color: white;
+            box-shadow: 0px 1px 3px 3px rgba(0,0,0,0.6);
+            -webkit-box-shadow: 0px 1px 6px 3px rgba(0,0,0,0.6);
+            -moz-box-shadow: 0px 1px 6px 3px rgba(0,0,0,0.6);
+            overflow: auto;
+        }
+
+        &__comentar{
+            
+            width: 100%;
+
+            form{
+                @include flex(column);
+                width: 100%;
+                
+            }
+
+            &__elemento{
+                width: 100%;
+
+                textarea, input{
+                    width: 100%;
+                }
+            }
+
+            
+        }
+
+    }
+
+    
+    @media (min-width:576px) {
+        &__presentacion{
+            padding: 32vh 15vw;
+        }
+    }
+    
+    @media (min-width:960px) {
+        &__presentacion{
+            padding: 35vh 20vw;
+        }
+    }
+
+}

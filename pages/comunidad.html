@@ -20,7 +20,7 @@
 
         <nav class="navbar navbar-expand-lg border-bottom ">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><h1>FUT<span class="fem">FEM</span><span class="arg">Arg</span></h1></a>
+                <a class="navbar-brand" href="../index.html"><h1>FUT<span class="fem">FEM</span><span class="arg">Arg</span></h1></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -41,55 +41,49 @@
         
         <div class="comunidad">
 
-            <div class="comunidad__presentacion">
+            <div class="comunidad__presentacion mi_contenedor">
                 <h2>Comunidad</h2>
                 <p>Acá podes estar en contacto con otras mujeres que, al igual que vos, comparten la pasión por el
                     fútbol. Sentite libre de contar tus experiencias así como leer las de otras mujeres y pedir
                     consejos. Mantené el respeto.</p>
             </div>
 
-            <div class="comunidad__comentarios">
+            <div class="comunidad__comentarios mi_contenedor">
 
-                <div class="comentario" >
+                <div class="comunidad__comentarios__comentario" >
                     <h3>Jazmin</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, doloremque similique, ea
-                        nesciunt unde adipisci et magni nihil sapiente placeat voluptas eveniet ipsa provident perspiciatis?
-                        Sint quis recusandae voluptatum natus?
+                    <p>Ayer fui a probar a club1 de Palermo y me encantó! ideal si recien estan empezando
                     </p>
                 </div>
 
-                <div class="comentario">
+                <div class="comunidad__comentarios__comentario">
                     <h3>Fran</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum ullam error qui ipsam placeat beatae
-                        voluptas, quam architecto nihil debitis, obcaecati eos reprehenderit aliquam id dolores soluta
-                        quidem? Dicta, error?
+                    <p>Coincido con Jazmin. El finde vamos a estar haciendo un evento en club1 Palermo, abierto a toda la comunidad. Pueden pasarse para conocernos
                     </p>
                 </div>
 
-                <div class="comentario">
+                <div class="comunidad__comentarios__comentario">
                     <h3>Maca</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit accusantium necessitatibus placeat
-                        aliquam modi rem doloribus nostrum suscipit repellat illo debitis quod cupiditate eligendi, corporis
-                        pariatur possimus nihil sunt cumque!
+                    <p>Chicas como va? conocí club2 de mataderos por esta pagina, ya llevo 1 mes y me encanta! si son de un nivel intermedio estan buscando chicas, recomiendo! jugamos torneo los Sábados
                     </p>
                 </div>
 
-                <div class="comentario">
+                <div class="comunidad__comentarios__comentario">
                     <h3>Dani</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, et nobis laboriosam soluta eligendi
-                        assumenda mollitia architecto ea nam, dicta placeat, doloribus perspiciatis omnis harum magni facere
-                        vitae in. Omnis.
-                    </p>
+                    <p>Holaaa, por acá estoy probando en Caballito, club3 esta buenisimoooo!</p>
                 </div>
 
-                <div class="enviar-comentario">
+                <div class="comunidad__comentarios__comentario">
+                    <h3>Marti <span class="color__staff">STAFF</span></h3>
+                    <p>Chicas! que bueno que compartan su experiencia. Nos alegra que está página les haya ayudado. Les comparto el link de nuestro grupo de whatsapp oficial para seguir compartiendo experiencias y consejos! www.whatsapp.com/grupofutfem</p>
+                </div>
+
+                <div class="comunidad__comentarios__comentar"> <!-- Es necesaria la etiqueta form? -->
                     <form action="">
-                        <div><label for="nombre">Nombre</label></div>
-                        <div><input type="text" id="nombre"></div>
-    
-                        <div><label for="comentario">Comentario</label></div>
-                        <div><textarea name="" id="comentario" cols="30" rows="10"></textarea></div>
-    
+                        <div class="comunidad__comentarios__comentar__elemento"><label for="nombre">Nombre</label></div>
+                        <div class="comunidad__comentarios__comentar__elemento"><input class="input" type="text" id="nombre"></div>
+                        <div class="comunidad__comentarios__comentar__elemento"><label for="comentario">Comentario</label></div>
+                        <div class="comunidad__comentarios__comentar__elemento"><textarea name="" id="comentario" maxlength="1000" ></textarea></div>
                         <div><input type="submit"></div>
                     </form>
                 </div>

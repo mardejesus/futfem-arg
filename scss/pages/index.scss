@@ -4,6 +4,10 @@
     align-items: center;
     flex-direction: $direction;
 }
+@mixin presentacion($height, $width){
+    text-align: center;
+    padding: $height $width;
+}
 
 .inicio{
     @include flex(column);
