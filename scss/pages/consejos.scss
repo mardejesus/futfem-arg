@@ -1,0 +1,78 @@
+.consejos{
+
+    @include flex(column);
+
+    &__presentacion{
+        @include presentacion(32vh, 10vw)
+    }
+
+    &__videos{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40vh 40vh;
+        align-items: center;
+        justify-items: center;
+        
+        .video{
+            padding: 5px;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+
+            iframe{
+                width: 80%;
+                height: 90%;
+            }
+        }
+
+        
+    }
+
+    @media (min-width:576px) {
+        &__presentacion{
+            @include presentacion(36vh, 20vw)
+        }
+        &__videos{
+            grid-template-columns: 0.5fr 0.5fr;
+
+            .video{
+    
+                iframe{
+                    width: 100%;
+                    height: 75%;
+                }
+            }
+        }
+    }
+
+    @media (min-width:1000px) {
+        
+        &__videos{
+            
+            .video{
+
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    @media (min-width:1200px) {
+        &__presentacion{
+            @include presentacion(34vh, 25vw)
+        }
+        &__videos{
+            grid-template-columns: 0.34fr 0.33fr 0.33fr;
+
+            .video{
+    
+                iframe{
+                    width: 100%;
+                    height: 80%;
+                }
+            }
+        }
+    }
+}
