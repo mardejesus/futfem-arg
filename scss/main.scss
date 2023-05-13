@@ -1,11 +1,11 @@
 @import "__base.scss";
 
-@import "components/footer.scss";
-@import "components/header.scss";
-@import "components/contenedor.scss";
+@import "components/__footer.scss";
+@import "components/__header.scss";
+@import "components/__contenedor.scss";
 
-@import "pages/index.scss";
-@import "pages/comunidad.scss";
-@import "pages/consejos.scss";
-@import "pages/entrenamiento.scss";
-@import "pages/noticias.scss";
+@import "pages/__index.scss";
+@import "pages/__comunidad.scss";
+@import "pages/__consejos.scss";
+@import "pages/__entrenamiento.scss";
+@import "pages/__noticias.scss";
