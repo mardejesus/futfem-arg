@@ -275,7 +275,7 @@ nav {
 }
 .consejos__presentacion {
   text-align: center;
-  padding: 32vh 10vw;
+  padding: 30vh 10vw;
 }
 .consejos__videos {
   display: grid;
@@ -297,7 +297,7 @@ nav {
 @media (min-width: 576px) {
   .consejos__presentacion {
     text-align: center;
-    padding: 36vh 20vw;
+    padding: 28vh 20vw;
   }
   .consejos__videos {
     grid-template-columns: 0.5fr 0.5fr;
@@ -316,7 +316,7 @@ nav {
 @media (min-width: 1200px) {
   .consejos__presentacion {
     text-align: center;
-    padding: 34vh 25vw;
+    padding: 29vh 25vw;
   }
   .consejos__videos {
     grid-template-columns: 0.34fr 0.33fr 0.33fr;
@@ -352,10 +352,17 @@ nav {
 }
 @media (min-width: 960px) {
   .entrenamientos__presentacion {
-    padding: 29vh 20vw;
+    padding: 31vh 20vw;
   }
 }
 
+.noticias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
 .noticias__presentacion {
   text-align: center;
   padding: 33vh 10vw;
@@ -365,6 +372,7 @@ nav {
 }
 .noticias__articulos {
   display: grid;
+  margin-bottom: 50px;
   gap: 1em;
   padding: 1em 15vw;
 }
@@ -382,7 +390,7 @@ nav {
 }
 @media (min-width: 960px) {
   .noticias__presentacion {
-    padding: 37.5vh 10vw;
+    padding: 37vh 10vw;
   }
   .noticias__articulos {
     grid-template-columns: 0.33fr 0.33fr 0.33fr;

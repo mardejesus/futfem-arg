@@ -3,7 +3,7 @@
     @include flex(column);
 
     &__presentacion{
-        @include presentacion(32vh, 10vw)
+        @include presentacion(30vh, 10vw)
     }
 
     &__videos{
@@ -30,7 +30,7 @@
 
     @media (min-width:576px) {
         &__presentacion{
-            @include presentacion(36vh, 20vw)
+            @include presentacion(28vh, 20vw)
         }
         &__videos{
             grid-template-columns: 0.5fr 0.5fr;
@@ -61,7 +61,7 @@
 
     @media (min-width:1200px) {
         &__presentacion{
-            @include presentacion(34vh, 25vw)
+            @include presentacion(29vh, 25vw)
         }
         &__videos{
             grid-template-columns: 0.34fr 0.33fr 0.33fr;
